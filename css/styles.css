@@ -1,9 +1,13 @@
 body {
   background-color: powderblue;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
 hr {
-  /*height: 0px;*/
+  /*height: 0;*/
   width: 5%;
   size:10;
   border-style: dotted none none;
@@ -12,6 +16,14 @@ hr {
   border-color: grey;
 }
 h1 {
+
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
   color: green;
 }
 h3 {
@@ -29,4 +41,40 @@ h3 {
   border-radius: 100%
 }
 
-.pic_size{width:128px height=192px}
+.pic_size{width:128px;
+  height:192px;}
+div {
+  background-color: #E4F9F5;
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+
+}
+.second{background-color:blue;width:128px;
+  height:192px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  border: solid 10px;
+  margin-left: 60px;}
+.third{background-color:pink;width:128px;
+  height:192px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 248px;}
+p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
