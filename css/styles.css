@@ -1,14 +1,32 @@
+body {
+  background-color: powderblue;
+}
 
+hr {
+  /*height: 0px;*/
+  width: 5%;
+  size:10;
+  border-style: dotted none none;
+  /* background-color: none;*/
+  border-width: 5px;
+  border-color: grey;
+}
+h1 {
+  color: green;
+}
+h3 {
+  color: green;
+}
+/**********************Class Selectors**************************/
+.mystyleheasding{
+  color: purple;
+}
+/********************ID Selectors********************************/
 
+#heading {color:pink;}
 
-body {background-color: powderblue;}
-  hr {
-    height: 0px;
-    width: 5%;
-    border-style: dotted none none;
-    background-color: none;
-    border-width: 5px;
-    border-color: grey;
+.circular{
+  border-radius: 100%
+}
 
-
-  }
+.pic_size{width:128px height=192px}
